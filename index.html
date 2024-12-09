@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat-bot Assist</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./DALL·E 2024-12-09 14.49.16 - A modern and minimalist favicon design for a chatbot website, featuring a sleek speech bubble icon with a gradient color scheme of blue and green, sym.webp" type="image/x-icon">
+</head>
+<body>
+
+  
+  <div class="chatbot-container">
+    <div id="sidebar" class="sidebar close">
+      <h2>History</h2>
+      <ul id="historyList"></ul>
+    </div>
+
+    <header class="chatbot-header">
+      <button id="toggleButton" class="toggle-button">☰</button>
+      <h1>Chat Bot Assistant</h1>
+    </header>
+
+    <main class="chatbot-main">
+      <div class="messages-container" id="messagesContainer">
+        
+      </div>
+    </main>
+
+    <footer class="chatbot-footer">
+      <input type="text" id="userInput" placeholder="Type your message here..." />
+      <button id="sendButton">Send</button>
+      <div id="loadingSpinner" class="loading-spinner" style="display: none;"></div>
+    </footer>
+  </div>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
