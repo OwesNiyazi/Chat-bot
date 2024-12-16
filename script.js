@@ -7,7 +7,7 @@ const toggleButton = document.getElementById('toggleButton');
 const chatContainer = document.querySelector('.chatbot-container');
 
 // API Key and URL
-const API_KEY = "AIzaSyDo11X26g6cvPjP8YJXdiaWXyvv93QUDzE";
+const API_KEY = "AIzaSyB0--Lc9l52u-wtyBDpXsidWmBZVnQoRyc";
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${API_KEY}`;
 
 
